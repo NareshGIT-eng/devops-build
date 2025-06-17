@@ -1,0 +1,7 @@
+version: '3'
+services:
+  mydeployment:
+    image: "nareshk321/dev:mydeployment"
+    container_name: "reactapp"
+    ports:
+      - "80:80"
